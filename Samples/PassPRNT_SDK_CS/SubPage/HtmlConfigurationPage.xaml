@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="PassPRNT_SDK_CS.SubPage.HtmlConfigurationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassPRNT_SDK_CS.SubPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Margin="12,20,12,12">
+            <StackPanel>
+                <TextBlock Text="Query &quot;html&quot; Setting" Style="{StaticResource SampleHeaderTextStyle}"/>
+                <TextBlock Style="{StaticResource ScenarioDescriptionTextStyle}">
+                    Configure the query of html.<LineBreak/>
+                    <LineBreak/>
+                    When the html-based data is received by PassPRNT, the printing image is generated internally, and then converted to raster data. <LineBreak/>
+                    The results of that are converted to a command system which can be used for printing on a Star printer.
+                </TextBlock>
+                <ComboBox x:Name="HtmlPreference" Margin="0,10,0,0" DropDownClosed="HtmlPreference_DropDownClosed"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

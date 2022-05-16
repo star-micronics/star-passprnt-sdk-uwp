@@ -1,0 +1,1 @@
+MainPackage=C:\Users\U3237\Documents\passprnt_sdk_windowsuwp_csharp\Samples\PassPRNT_SDK_CS\bin\x86\Debug\PassPRNT_SDK_CS_1.0.2.0_x86_Debug.appx

@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="PassPRNT_SDK_CS.SubPage.UrlConfigurationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassPRNT_SDK_CS.SubPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Margin="12,20,12,12">
+            <StackPanel>
+                <TextBlock Text="Query &quot;url&quot; Setting" Style="{StaticResource SampleHeaderTextStyle}"/>
+                <TextBlock Style="{StaticResource ScenarioDescriptionTextStyle}">
+                    Configure the query of url.<LineBreak/>
+                    <LineBreak/>
+                    You can print html or pdf file of specified URL.
+                </TextBlock>
+                <ComboBox x:Name="UrlPreference" Margin="0,10,0,0" DropDownClosed="UrlPreference_DropDownClosed"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

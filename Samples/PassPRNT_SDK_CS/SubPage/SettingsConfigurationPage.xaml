@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="PassPRNT_SDK_CS.SubPage.SettingsConfigurationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassPRNT_SDK_CS.SubPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Margin="12,20,12,12">
+            <StackPanel>
+                <TextBlock Text="Query &quot;settings&quot; Setting" Style="{StaticResource SampleHeaderTextStyle}"/>
+                <TextBlock Style="{StaticResource ScenarioDescriptionTextStyle}">
+                    Configure the query of settings.<LineBreak/>
+                    <LineBreak/>
+                    Conforms to StarIO portSettings specifications for Windows UWP.<LineBreak/>
+                    Set according to the type of printer being communicated with: <LineBreak/>
+                    for Desktop types (except BSC10), nothing (a blank entry) is set <LineBreak/>
+                    for BSC10, "escpos;" is set <LineBreak/>
+                    for Portable types with StarPRNT Emulation, or mCollection types … "portable;" is set <LineBreak/>
+                    for Portable types with ESC/POS Emulation … "portable;escpos" is set
+                </TextBlock>
+                <ComboBox x:Name="SettingsPreference" Margin="0,10,0,0" DropDownClosed="SettingsPreference_DropDownClosed"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

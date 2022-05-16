@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="PassPRNT_SDK_CS.SubPage.RunPrintPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassPRNT_SDK_CS.SubPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Margin="12,20,12,12">
+            <StackPanel>
+                <TextBlock Text="Generate printing data for PassPRNT" Style="{StaticResource SampleHeaderTextStyle}"/>
+                <TextBlock Style="{StaticResource ScenarioDescriptionTextStyle}">
+                    Set the following parameters<LineBreak/>
+                    &quot;starpassprnt://&quot; as URL scheme<LineBreak/>
+                    &quot;v1/print/nopreview&quot; as path<LineBreak/>
+                    <LineBreak/>
+                    &quot;port&quot; (*3)<LineBreak/>
+                    &quot;settings&quot; (*3)<LineBreak/>
+                    &quot;timeout&quot;<LineBreak/>
+                    &quot;size&quot;<LineBreak/>
+                    &quot;drawer&quot;<LineBreak/>
+                    &quot;drawerpulse&quot;<LineBreak/>
+                    &quot;buzzer&quot;<LineBreak/>
+                    &quot;buzzerchannel&quot;<LineBreak/>
+                    &quot;buzzerrepeat&quot;<LineBreak/>
+                    &quot;buzzerdrivetime&quot;<LineBreak/>
+                    &quot;buzzerdelaytimer&quot;<LineBreak/>
+                    &quot;sound&quot;<LineBreak/>                    
+                    &quot;soundstoragearea&quot;<LineBreak/>                    
+                    &quot;soundnumber&quot;<LineBreak/>                    
+                    &quot;soundvolume&quot;<LineBreak/>                                        
+                    &quot;back&quot; (*1, *3)<LineBreak/>
+                    &quot;blackmark&quot; (*3)<LineBreak/>
+                    &quot;cut&quot;<LineBreak/>
+                    &quot;popup&quot; (*3)<LineBreak/>
+                    &quot;html&quot; (*2, *3)<LineBreak/>
+                    &quot;url&quot; (*2, *3)<LineBreak/>
+                    <LineBreak/>
+                    *1: Required<LineBreak/>
+                    *2: Either one is required<LineBreak/>
+                    *3: URL encode conversion required (RFC3986)<LineBreak/>
+                </TextBlock>
+                <Button Content="Print data" Click="Button_Click" Margin="0,10,0,0"/>
+                <TextBox Name="tbUri" IsReadOnly="True"  TextWrapping="Wrap" Text="Curren URI"  Margin="0,20,20,0"  />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
