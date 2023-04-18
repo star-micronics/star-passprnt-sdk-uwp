@@ -32,9 +32,10 @@
                     &quot;soundnumber&quot;<LineBreak/>                    
                     &quot;soundvolume&quot;<LineBreak/>                                        
                     &quot;back&quot; (*1, *3)<LineBreak/>
-                    &quot;blackmark&quot; (*3)<LineBreak/>
+                    &quot;blackmark&quot;<LineBreak/>
+                    &quot;gap&quot;<LineBreak/>
                     &quot;cut&quot;<LineBreak/>
-                    &quot;popup&quot; (*3)<LineBreak/>
+                    &quot;popup&quot;<LineBreak/>
                     &quot;html&quot; (*2, *3)<LineBreak/>
                     &quot;url&quot; (*2, *3)<LineBreak/>
                     <LineBreak/>

@@ -76,10 +76,11 @@ namespace PassPRNT_SDK_CS
             new Scenario() { Title = Settings.QueryKeys[14],    ClassType = typeof(SoundVolumeConfigurationPage) },
             new Scenario() { Title = Settings.QueryKeys[15],    ClassType = typeof(BackConfigurationPage) },
             new Scenario() { Title = Settings.QueryKeys[16],    ClassType = typeof(BlackMarkConfigurationPage) },
-            new Scenario() { Title = Settings.QueryKeys[17],    ClassType = typeof(CutConfigurationPage) },
-            new Scenario() { Title = Settings.QueryKeys[18],    ClassType = typeof(PopupConfigurationPage) },
-            new Scenario() { Title = Settings.QueryKeys[19],    ClassType = typeof(HtmlConfigurationPage) },
-            new Scenario() { Title = Settings.QueryKeys[20],    ClassType = typeof(UrlConfigurationPage) },
+            new Scenario() { Title = Settings.QueryKeys[17],    ClassType = typeof(GapConfigurationPage) },
+            new Scenario() { Title = Settings.QueryKeys[18],    ClassType = typeof(CutConfigurationPage) },
+            new Scenario() { Title = Settings.QueryKeys[19],    ClassType = typeof(PopupConfigurationPage) },
+            new Scenario() { Title = Settings.QueryKeys[20],    ClassType = typeof(HtmlConfigurationPage) },
+            new Scenario() { Title = Settings.QueryKeys[21],    ClassType = typeof(UrlConfigurationPage) },
             new Scenario() { Title = "Print",                   ClassType = typeof(RunPrintPage) },
         };
 
@@ -134,6 +135,7 @@ namespace PassPRNT_SDK_CS
             "soundvolume",
             "back",
             "blackmark",
+            "gap",
             "cut",
             "popup",
             "html",
@@ -165,11 +167,13 @@ namespace PassPRNT_SDK_CS
         static public List<String> SizePreference = new List<string>
         {
             "none",
+            "1",
             "2",
             "2w1",
             "2w2",
             "2w3",
             "2w4",
+            "2w5",
             "3",
             "3w",
             "3w2",
@@ -302,6 +306,14 @@ namespace PassPRNT_SDK_CS
         };
 
         static public List<String> BlackmarkPreference = new List<string>
+        {
+            "none",
+            "disable",
+            "enable",
+            "enableAndDetectAtPowerOn",
+        };
+
+        static public List<String> GapPreference = new List<string>
         {
             "none",
             "disable",

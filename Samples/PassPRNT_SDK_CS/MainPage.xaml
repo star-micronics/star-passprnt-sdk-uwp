@@ -28,7 +28,7 @@
                     </ListBox>
                     <StackPanel x:Name="FooterPanel" Orientation="Vertical" RelativePanel.AlignBottomWithPanel="True">
                         <Image Source="Assets/starmicronics-logo.png" AutomationProperties.Name="PassPRNT Logo" Stretch="None" HorizontalAlignment="Left" Margin="10,0,0,0"/>
-                        <TextBlock x:Name="Copyright" Text="&#xA9; 2021 Star Micronics Co., Ltd. All right reserved." Style="{StaticResource CopyrightTextStyle}" RelativePanel.Above="LinksPanel" Margin="10,10,0,0" TextWrapping="Wrap"/>
+                        <TextBlock x:Name="Copyright" Text="&#xA9; 2023 Star Micronics Co., Ltd. All right reserved." Style="{StaticResource CopyrightTextStyle}" RelativePanel.Above="LinksPanel" Margin="10,10,0,0" TextWrapping="Wrap"/>
                         <StackPanel x:Name="LinksPanel" Orientation="Horizontal" Margin="10,10,0,10">
                             <HyperlinkButton Content="SDK Site EN" Tag="http://www.starmicronics.com/support/sdkdocumentation.aspx" Click="Footer_Click" FontSize="12" Style="{StaticResource HyperLinkStyle}"/>
                             <TextBlock Text="|" Style="{StaticResource SeparatorStyle}" VerticalAlignment="Center"/>

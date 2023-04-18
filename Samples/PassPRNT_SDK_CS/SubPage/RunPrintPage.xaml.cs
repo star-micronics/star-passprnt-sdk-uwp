@@ -68,6 +68,7 @@ namespace PassPRNT_SDK_CS.SubPage
             string soundvolume      = (string)Settings.getValue("soundvolume");
             string back             = (string)Settings.getValue("back");
             string blackmark        = (string)Settings.getValue("blackmark");
+            string gap              = (string)Settings.getValue("gap");
             string cut              = (string)Settings.getValue("cut");
             string popup            = (string)Settings.getValue("popup");
             string html             = (string)Settings.getValue("html");
@@ -176,6 +177,12 @@ namespace PassPRNT_SDK_CS.SubPage
             {
                 urlScheme.Append("blackmark=");
                 urlScheme.Append(ConfigureQueryValue(blackmark, true));
+                urlScheme.Append("&");
+            }
+            if (!gap.Equals("none", StringComparison.CurrentCultureIgnoreCase))
+            {
+                urlScheme.Append("gap=");
+                urlScheme.Append(ConfigureQueryValue(gap, true));
                 urlScheme.Append("&");
             }
             if (!cut.Equals("none", StringComparison.CurrentCultureIgnoreCase))

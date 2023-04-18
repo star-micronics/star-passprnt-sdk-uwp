@@ -111,6 +111,9 @@
     <Compile Include="SubPage\BackConfigurationPage.xaml.cs">
       <DependentUpon>BackConfigurationPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SubPage\GapConfigurationPage.xaml.cs">
+      <DependentUpon>GapConfigurationPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SubPage\BlackMarkConfigurationPage.xaml.cs">
       <DependentUpon>BlackMarkConfigurationPage.xaml</DependentUpon>
     </Compile>
@@ -208,6 +211,10 @@
     <Page Include="SubPage\BackConfigurationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SubPage\GapConfigurationPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="SubPage\BlackMarkConfigurationPage.xaml">
       <SubType>Designer</SubType>
