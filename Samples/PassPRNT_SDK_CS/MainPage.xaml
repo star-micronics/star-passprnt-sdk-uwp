@@ -30,9 +30,9 @@
                         <Image Source="Assets/starmicronics-logo.png" AutomationProperties.Name="PassPRNT Logo" Stretch="None" HorizontalAlignment="Left" Margin="10,0,0,0"/>
                         <TextBlock x:Name="Copyright" Text="&#xA9; 2023 Star Micronics Co., Ltd. All right reserved." Style="{StaticResource CopyrightTextStyle}" RelativePanel.Above="LinksPanel" Margin="10,10,0,0" TextWrapping="Wrap"/>
                         <StackPanel x:Name="LinksPanel" Orientation="Horizontal" Margin="10,10,0,10">
-                            <HyperlinkButton Content="SDK Site EN" Tag="http://www.starmicronics.com/support/sdkdocumentation.aspx" Click="Footer_Click" FontSize="12" Style="{StaticResource HyperLinkStyle}"/>
+                            <HyperlinkButton Content="SDK Site EN" Tag="https://starmicronics.com/support/developers/passprnt-sdks/" Click="Footer_Click" FontSize="12" Style="{StaticResource HyperLinkStyle}"/>
                             <TextBlock Text="|" Style="{StaticResource SeparatorStyle}" VerticalAlignment="Center"/>
-                            <HyperlinkButton x:Name="JPLink" Content="JP" Tag="http://sp-support.star-m.jp/SDKDocumentation.aspx" Click="Footer_Click" FontSize="12" Style="{StaticResource HyperLinkStyle}"/>
+                            <HyperlinkButton x:Name="JPLink" Content="JP" Tag="https://sp-support.star-m.jp/developers/passprnt-sdks/" Click="Footer_Click" FontSize="12" Style="{StaticResource HyperLinkStyle}"/>
                         </StackPanel>
                     </StackPanel>
                 </RelativePanel>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="aa6f9e05-b102-47f4-8ef4-1414e829cad8" Publisher="CN=&quot;STAR MICRONICS CO., LTD.&quot;, O=&quot;STAR MICRONICS CO., LTD.&quot;, L=Shizuoka, S=Shizuoka, C=JP" Version="2.4.0.0" />
+  <Identity Name="aa6f9e05-b102-47f4-8ef4-1414e829cad8" Publisher="CN=&quot;STAR MICRONICS CO., LTD.&quot;, O=&quot;STAR MICRONICS CO., LTD.&quot;, L=Shizuoka, S=Shizuoka, C=JP" Version="2.5.0.0" />
   <mp:PhoneIdentity PhoneProductId="aa6f9e05-b102-47f4-8ef4-1414e829cad8" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>PassPRNT_SDK_CS</DisplayName>

@@ -174,6 +174,8 @@ namespace PassPRNT_SDK_CS
             "2w3",
             "2w4",
             "2w5",
+            "2w6",
+            "2w7",
             "3",
             "3w",
             "3w2",
