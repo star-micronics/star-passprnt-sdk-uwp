@@ -167,19 +167,11 @@ namespace PassPRNT_SDK_CS
         static public List<String> SizePreference = new List<string>
         {
             "none",
-            "1",
-            "2",
-            "2w1",
-            "2w2",
-            "2w3",
-            "2w4",
-            "2w5",
-            "2w6",
-            "2w7",
-            "3",
-            "3w",
-            "3w2",
-            "4",
+            "384",
+            "406",
+            "576",
+            "832",
+            // Note: "width" supports dot notation from PassPRNT V2.11.0. Previously used options like @"1", @"2w1", @"2w2" are still supported.
         };
 
         static public List<String> DrawerPreference = new List<String>

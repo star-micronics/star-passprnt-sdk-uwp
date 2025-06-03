@@ -1,5 +1,5 @@
 ************************************************************
-      Star PassPRNT UWP SDK Ver 2.5.0
+      Star PassPRNT UWP SDK Ver 2.6.0
          Readme_En.txt             Star Micronics Co., Ltd.
 ************************************************************
 
@@ -31,7 +31,7 @@
  2. Contents
 =============
 
-  PassPRNT_UWP_SDK_Ver2.5.0
+  PassPRNT_UWP_SDK_Ver2.6.0
   |
   | Readme_En.txt                       // Release Note(English)
   | Readme_Jp.txt                       // Release Note(Japanese)
@@ -49,7 +49,7 @@
     Windows 11
 
   [Software]
-    PassPRNT Ver 2.8.0
+    PassPRNT Ver 2.11.0
 
   [Printer Model]
     Please refer to Users Manual.
@@ -58,11 +58,15 @@
  4. Copyright
 ==============
 
-  Copyright 2017 - 2023 Star Micronics Co., Ltd. All rights reserved.
+  Copyright 2017 - 2025 Star Micronics Co., Ltd. All rights reserved.
 
 =================================
  5. Star PassPRNT Release History
 =================================
+
+ Ver 2.6.0
+  2025/05/19  : Changed `size` query to `384`, `406`, `576`, `832`.
+                Updated target software.
 
  Ver 2.5.0
   2023/09/07  : Added `2w6` and `2w7` to `size` query.
